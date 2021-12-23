@@ -235,7 +235,6 @@ let htmlLogin = `
    </div>
    <button class="form-submit">Đăng nhập</button>
    <p>Bạn chưa có tài khoản? <a href="#" onclick="tranferRegister()">Đăng ký</a></p>
-   <a href="./login.html">Đăng nhập admin</a>
 </form>
 `
 

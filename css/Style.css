@@ -1,5 +1,5 @@
 :root {
-   --main-background: #00a2e8;
+   --main-background: #000;
    --main-fontcolor: #fff;
    --hover-color: #ffb70f;
 }
@@ -12,7 +12,7 @@
 }
 
 html{
-   background: #369ad6;
+   background: #000;
    scroll-behavior: smooth;
 }
 
@@ -57,7 +57,7 @@ header{
 }
 .nav .fa-chevron-down:hover{
    background: #fff;
-   color: #00a2e8;
+   color: #000;
 }
 
 .nav-list {
@@ -116,7 +116,7 @@ a {
 }
 
 .login-register a:hover {
-   color:#00a2e8;
+   color:#000;
    background: #fff;
 }
 
@@ -125,7 +125,7 @@ a {
    overflow: hidden;
    padding: 8px 0 8px 100px;
    font-size: 18px;
-   background: #2769e4;
+   background: purple;
    color: var(--hover-color);
    display: flex;
    align-items: center;
@@ -144,15 +144,15 @@ a {
 }
 
 .content {
-   background: #369ad6;
-   margin-top: 135px;
+   background: #000;
+   margin-top: 96px;
    min-height: 70vh;
 }
 
 .nav-content {
    width: 100%;
    padding-left: 100px;
-   background: #369ad6;
+   background: #000;
 }
 
 .nav-content-list li {
@@ -322,8 +322,8 @@ a {
    margin: 0;
    color: var(--main-fontcolor);
    text-align: center;
-   border-left: 6px #369ad6 solid;
-   background: #369ad6;
+   border-left: 6px #000 solid;
+   background: #000;
 }
 
 .top-sale select {
@@ -468,7 +468,7 @@ a {
    justify-content: center;
    align-items: center;
    position: relative;
-   background: #00a2e8;
+   background: #000;
    color: #fff;
 }
 
@@ -497,8 +497,8 @@ a {
 }
 
 .cart-body .sub-cart{
-   background-color: #51cbff;
-   color: #fff;
+   background-color: purple;
+   color: var(--hover-color);
    font-size: 16px;
    padding: 4px 10px;
 }
@@ -527,11 +527,9 @@ a {
 
 .cart-body .cart-list li{
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
-   color: #fff;
    margin-top: 6px;
    border-radius: 6px;
    padding: 10px 4px;
-   background: #51cbff;
    
 }
 
@@ -695,4 +693,8 @@ footer div{
    color: white !important;
    padding: 3px 10px;
    text-decoration: none;
+ }
+
+ .pay-cart a{
+   color: #fff;
  }
