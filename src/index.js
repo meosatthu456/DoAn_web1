@@ -164,7 +164,7 @@ let htmlRegister = `
    <span class="message-error"></span>
 </div>
 <div class="form-group">
-   <label class="form-label">Nhập lại mật khảu</label>
+   <label class="form-label">Nhập lại mật khẩu</label>
    <input
       class="form-input"
       type="password"
